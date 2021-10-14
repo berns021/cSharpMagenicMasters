@@ -2,6 +2,7 @@
 
 namespace CsharpsMasterAssigments
 {
+    // source : https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/yield
     public class MyYeild_10_11
     {
         /// <summary>
