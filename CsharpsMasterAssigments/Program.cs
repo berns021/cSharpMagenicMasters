@@ -8,6 +8,7 @@ namespace CsharpsMasterAssigments
         {
             Console.WriteLine("Assigment 1");
             MyYeild_10_11 assigment1 = new MyYeild_10_11();
+            
             // Display powers of 2 up to the exponent of 8:
             foreach (int i in assigment1.Power(2, 8))
             {
