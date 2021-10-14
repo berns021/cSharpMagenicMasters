@@ -13,17 +13,11 @@ namespace CsharpsMasterAssigments
         /// (the class that holds the state for an enumeration, see IEnumerator<T> for an example) 
         /// when you implement the IEnumerable and IEnumerator pattern for a custom collection type.
         /// </summary>
-        static void Main()
+        public MyYeild_10_11()
         {
-            // Display powers of 2 up to the exponent of 8:
-            foreach (int i in Power(2, 8))
-            {
-                // this will prnt the return value from the yield statement 
-                Console.Write("{0} ", i);
-            }
         }
 
-        public static System.Collections.Generic.IEnumerable<int> Power(int number, int exponent)
+        public  System.Collections.Generic.IEnumerable<int> Power(int number, int exponent)
         {
             int result = 1;
 
